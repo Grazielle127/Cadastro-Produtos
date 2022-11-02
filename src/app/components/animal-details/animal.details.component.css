@@ -1,0 +1,44 @@
+h1{
+  display: flex;
+  justify-content: center;
+}
+table, td, th {
+  border: 1px solid #ddd;
+  text-align: left;
+}
+
+table {
+  border-collapse: collapse;
+  width: 70%;
+}
+
+th, td {
+  padding: 15px;
+}
+
+th{
+  background-color: #ff893a;
+}
+td{
+  background-color: #f1db9e;
+
+}
+button{
+
+  width: 90px;
+  height: 50px;
+  background-color: rgb(207, 96, 115);
+  margin-top: 3rem;
+  margin-right: 1rem;
+  border-radius: 1rem;
+  border: none;
+  cursor: pointer;
+  color: white;
+  font-weight: 700;
+  transition: all 0.3s;
+}
+
+button:hover{
+  background-color:rgb(233, 204, 76) ;
+
+}

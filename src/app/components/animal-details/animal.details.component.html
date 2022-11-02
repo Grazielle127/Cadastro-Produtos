@@ -1,0 +1,30 @@
+
+  <h1>Detalhes dos animais</h1>
+
+<div class="class" *ngIf="animal">
+
+  <table>
+    <tr>
+      <th>Nome</th>
+      <th>Idade (anos)</th>
+      <th>Tipo</th>
+      <th>Raça</th>
+      <th>Peso (KG)</th>
+    </tr>
+
+    <tr>
+      <td>{{ animal.name }}</td>
+      <td>{{ animal.age }}</td>
+      <td>{{ animal.type }}</td>
+      <td>{{ animal.breed }}</td>
+      <td>{{ animal.weight }}</td>
+    </tr>
+  </table>
+
+
+  <button (click)="edit(animal)">editar</button>
+
+  <button (click)="remove(animal)">remover</button>
+
+  <button (click)="voltar()" >Voltar</button>
+</div>

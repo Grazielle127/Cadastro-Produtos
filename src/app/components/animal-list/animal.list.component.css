@@ -1,0 +1,21 @@
+li{
+  color: rgb(253, 179, 182);
+  font-weight: bold;
+  background-color: brown;
+  height: 30px;
+  width: 15%;
+  display: flex;
+  align-items: center;
+  border-radius: 15px;
+  margin-top: 0.5rem;
+  justify-content: center;
+  cursor: pointer;
+}
+div{
+  display: flex;
+  justify-content: center;
+}
+
+li:hover{
+background-color:rgb(207, 96, 115) ;
+}

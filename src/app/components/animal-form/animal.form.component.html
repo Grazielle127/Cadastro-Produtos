@@ -1,0 +1,21 @@
+
+<div class="formulario">
+<form>
+  <input [ngModelOptions]="{standalone: true}" [(ngModel)]="animal.name" type="text" placeholder="Nome" name="name">
+
+  <input [ngModelOptions]="{standalone: true}" [(ngModel)]="animal.type" type="text" placeholder="Tipo" name="type">
+
+  <input [ngModelOptions]="{standalone: true}" [(ngModel)]="animal.age" type="text" placeholder="Idade" name="age">
+
+  <input [ngModelOptions]="{standalone: true}" [(ngModel)]="animal.breed"type="text" placeholder="Raça" name="breed">
+
+  <input [ngModelOptions]="{standalone: true}" [(ngModel)]="animal.weight" type="text" placeholder="Peso" name="weight">
+
+
+</form>
+</div>
+<button  *ngIf="!edit"(click)="salvar()" >salvar</button>
+<button *ngIf="edit" (click)="editar()" >atualizar</button>
+<button  (click)="voltar()" >Voltar</button>
+
+
